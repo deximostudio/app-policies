@@ -1,12 +1,12 @@
 # Privacy Policy for SparePix
 
-**Last updated:** October 6, 2026  
+**Last updated:** October 11, 2026  
 **Developer:** Deximostudio  
-**App:** SparePix (`com.deximoapps.sparepix` on Android)
+**App:** SparePix (`com.deximoapps.sparepix` on Android and iOS)
 
 ## Overview
 
-SparePix is a local-first photo similar and screenshot-sweep app for Android. We do not operate servers that store your photos. Scan, grouping, review, and delete run on your device. Photos stay on this phone unless you choose to share or delete them through Android.
+SparePix is a local-first photo similar and screenshot-sweep app for Android and iPhone. We do not operate servers that store your photos. Scan, grouping, review, and delete run on your device. Photos stay on this phone unless you choose to share or delete them through Android or iOS.
 
 ## Information we collect
 
@@ -16,12 +16,12 @@ SparePix does not use advertising, analytics, or crash-reporting SDKs. We do not
 
 ## How scanning works
 
-- **Photo access** — SparePix only looks at photos you grant. That may be the full library (Photos / media permission) or a set you pick (Android Photo Picker / selected photos). If access is partial, the app scans only that set and says so in the UI.
+- **Photo access** — SparePix only looks at photos you grant. That may be the full library (Photos / media permission) or a set you pick (Android Photo Picker / selected photos, or Limited Access on iPhone). If access is partial, the app scans only that set and says so in the UI.
 - **On-device similar groups** — Lookalikes and duplicates are found on this phone using perceptual hashes and related metadata. Pixels are not uploaded to Deximostudio to be compared.
-- **Screenshot sweep** — Screenshots are grouped using on-device MediaStore paths and heuristics (for example the Screenshots album).
-- **Not-on-device originals** — If a photo’s pixels are not available locally (for example an undownloaded cloud original), SparePix skips it or tells you it needs the photo on this phone. That is not the same as uploading to our cloud. We do not operate a Deximostudio image server.
+- **Screenshot sweep** — Screenshots are grouped on the device: on Android from MediaStore paths and heuristics (for example the Screenshots album), on iPhone from the screenshot flag the Photos library already holds.
+- **Not-on-device originals** — If a photo’s pixels are not available locally (for example an undownloaded cloud original, including iCloud Photos originals that are not on the iPhone), SparePix skips it or tells you it needs the photo on this phone. That is not the same as uploading to our cloud. We do not operate a Deximostudio image server.
 
-Scan can run in the background with a foreground notification while it is in progress.
+On Android, a scan can run in the background with a foreground notification while it is in progress. On iPhone, a scan runs while the app is open and nothing is downloaded from iCloud.
 
 ## Information stored on your device
 
@@ -33,7 +33,7 @@ The app stores the following locally on your device:
 - Scan progress and access mode
 - A local cache of lifetime unlock and free-delete counts (for offline use)
 
-The original photo files stay in your Android gallery. SparePix does not copy your library to Deximostudio.
+The original photo files stay in your Android gallery or iPhone Photos library. SparePix does not copy your library to Deximostudio.
 
 ## Permissions you may grant
 
@@ -45,19 +45,21 @@ SparePix only uses permissions and system features needed for the functions you 
 - **Foreground service** — so a scan can finish while the app is in the background
 - **Network** — for purchase / restore with Google Play (see below), and if you open a link you choose (for example this policy)
 
+On iPhone the only permission is **Photos** (full or limited access). SparePix asks for no notification, location, camera, contacts or tracking permission.
+
 You can deny notifications; you can still scan and review in the app. If you deny photo access, SparePix cannot scan.
 
 ## Purchases (SparePix lifetime unlock)
 
-Unlimited deletes and the full screenshot sweep are unlocked with a one-time in-app purchase processed by Google Play Billing (`similarplain_lifetime`). There is no subscription.
+Unlimited deletes and the full screenshot sweep are unlocked with a one-time in-app purchase processed by Google Play Billing on Android or by Apple's App Store on iPhone (`similarplain_lifetime`). There is no subscription.
 
 When you purchase or restore:
 
-- Google processes the payment
-- Google may receive purchase / entitlement information needed to unlock SparePix on that Play account
+- Google (Android) or Apple (iPhone) processes the payment
+- The store may receive purchase / entitlement information needed to unlock SparePix on that Play account or Apple Account
 - Your photos are not sent to Deximostudio as part of purchase
 
-Google’s privacy policy applies to store transactions. Deximostudio does not store your payment card details.
+Google’s or Apple’s privacy policy applies to store transactions. Deximostudio does not store your payment card details.
 
 ## Optional network use
 
@@ -70,13 +72,13 @@ Those requests do not upload your library to Deximostudio.
 
 ## Delete, Trash, and sharing
 
-Deletes are **user-confirmed**. SparePix does not silent-delete. Confirmed items go to Android Trash / Recents when the system supports it, or are deleted with a clear confirm on older paths. You can restore from Trash / Recents while Android still keeps those items.
+Deletes are **user-confirmed**. SparePix does not silent-delete. Confirmed items go to Android Trash / Recents when the system supports it, or are deleted with a clear confirm on older paths. You can restore from Trash / Recents while Android still keeps those items. On iPhone, iOS asks you to confirm each delete and moves the photos to Recently Deleted, where they can be recovered for 30 days. If iCloud Photos is on, iOS removes them from your other devices too.
 
 SparePix does not upload photos you delete. Copies that already live in other apps, chats, or cloud galleries are not deleted by SparePix.
 
-## Android backup
+## Device backup
 
-On Android, app data may be included in your device’s backup if backup is enabled (`allowBackup` is on). Backup content is managed by Google or your device manufacturer, not by Deximostudio. That backup would be the local index and settings — not a Deximostudio cloud library.
+On Android, app data may be included in your device’s backup if backup is enabled (`allowBackup` is on). Backup content is managed by Google or your device manufacturer, not by Deximostudio. That backup would be the local index and settings — not a Deximostudio cloud library. On iPhone the local index is excluded from iCloud and computer backups.
 
 ## Data deletion
 
@@ -94,4 +96,4 @@ We may update this policy. The “Last updated” date at the top will change wh
 
 ## Contact
 
-Questions about this policy: [GitHub Issues](https://github.com/deximostudio/similarplain/issues)
+Questions about this policy: [info@deximoapps.com](mailto:info@deximoapps.com)

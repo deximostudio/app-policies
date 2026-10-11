@@ -42,7 +42,7 @@ If you have a question about purchase or restore history related to the SparePix
 
 ## Request help
 
-Open an issue: [GitHub Issues — similarplain](https://github.com/deximostudio/similarplain/issues)
+Email: [info@deximoapps.com](mailto:info@deximoapps.com)
 
 Please mention **SparePix data deletion** in the title.
 
