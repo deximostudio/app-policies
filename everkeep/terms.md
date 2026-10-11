@@ -1,7 +1,7 @@
 # Terms of use for Everkeep
 
 **Last updated:** October 11, 2026  
-**Developer:** Deximostudio  
+**Developer:** Deximo Apps  
 **App:** Everkeep (`com.deximostudio.memoria` on Android; `com.deximostudio.memoria.Memoria` on iOS)
 
 These terms govern your use of Everkeep. By using the app, you agree to them. If you do not agree, do not use the app.
@@ -18,7 +18,7 @@ You may not reverse engineer, rent, or resell the app except as allowed by law.
 
 ## Your content
 
-Your memories are yours. Deximostudio does not claim ownership of anything you add to Everkeep and does not receive it.
+Your memories are yours. Deximo Apps does not claim ownership of anything you add to Everkeep and does not receive it.
 
 You are responsible for the content you add, and for having the right to keep and share it, including photos, video, and recordings of other people.
 
