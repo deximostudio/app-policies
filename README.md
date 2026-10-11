@@ -6,7 +6,7 @@ Each app has its own folder:
 
 | App | Privacy policy | Other |
 |-----|----------------|-------|
-| [Everkeep](everkeep/privacy.md) | Local-first baby memory journal | [Request deletion](everkeep/delete-data.md) |
+| [Everkeep](everkeep/privacy.md) | Local-first baby memory journal | [Request deletion](everkeep/delete-data.md) · [Terms of use](everkeep/terms.md) |
 | [Filetray](filetray/privacy.md) | On-device Android OCR PDF scanner | [Request deletion](filetray/delete-data.md) |
 | [Resonance](resonance/privacy.md) | Audiobook player for Android and iOS | — |
 | [Soloclip](soloclip/privacy.md) | On-device Android clipboard history | [Request deletion](soloclip/delete-data.md) |
