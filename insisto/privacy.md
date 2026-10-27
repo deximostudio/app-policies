@@ -2,7 +2,7 @@
 
 **Last updated:** October 26, 2026  
 **Developer:** Deximostudio  
-**App:** Insisto (`studio.deximo.insisto` on Android)
+**App:** Insisto (`com.deximoapps.insisto` on Android)
 
 ## Overview
 
